@@ -1,0 +1,66 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+.imagenAlura{
+    width: 40px;
+}
+body {
+    background-color:blanchedalmond;
+}
+
+main {
+    display: flex;
+}
+
+.mensaje-sin-codificar{
+    margin: 0 6% 1%;
+}
+
+.input-texto{
+    border-radius: 20px; 
+}
+
+.mensaje {
+    
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 20px;
+    
+}
+
+.botones {
+    position: relative;
+    
+}
+
+.encriptar{
+    background-color: darkblue;
+    color:white;
+    border-radius: 5px;
+}
+
+.desencriptar{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.copiar{
+    position: relative;
+    margin-top: 88px;
+    margin-left: 35%;
+    border-radius: 5px;
+}
+
+.encriptar:hover, .desencriptar:hover, .copiar:hover{
+    opacity: 0.3;
+    transition: 400ms;
+}
+
+.informacion {
+    font-size: 15px;
+    font-style: italic;
+}
