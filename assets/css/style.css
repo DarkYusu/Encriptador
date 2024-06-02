@@ -5,6 +5,7 @@
 }
 .imagenAlura{
     width: 40px;
+    margin: 20px;
 }
 body {
     background-color:blanchedalmond;
@@ -16,6 +17,7 @@ main {
 
 .mensaje-sin-codificar{
     margin: 0 6% 1%;
+    
 }
 
 .input-texto{
@@ -24,7 +26,7 @@ main {
 
 .mensaje {
     
-    background-image: url("imagenes/Muñeco.png");
+    background-image: url(../img/Muñeco.png);
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 300px;
